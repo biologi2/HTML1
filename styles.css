@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+.DarkMode {
+    margin-top: 3rem;
+    margin-left: 55rem;
+    color: var(--clr-gray-700);
+    display: inline-block;
+    font-weight: 700;
+}
+.switch {
+    position: relative;
+    margin-left: 30px;
+    display: inline-block;
+    width: 52px;
+    height: 29px;
+}
+.switch input {
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--clr-primary);
+}
+.slider:before {
+    position: absolute;
+    content:"";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--clr-bg);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: var(--clr-gray-600);
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.navbar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6200ea;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logos img {
+    margin: 0 10px;
+    max-width: 100px;
+    height: auto;
+}
+.app-features {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.app-features h2 {
+    margin-bottom: 20px;
+}
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+.howdoesitwork {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    background-color: var(--clr-gray100);
+    padding-bottom: 5rem;
+}
+.h1{
+    font-size: 2.5rem;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-top: 5rem;
+}
+.text {
+    margin-top: 1.5rem;
+}
+.h4 {
+    font-size: 1.5rem;
+}
+.subtext {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+.makeyoumoney {
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    display: flex;
+    gap: 10rem;
+}
+.h3 {
+    font-size: 2rem;
+}
+.list li {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    color: var(--clr-gray-700);
+}
+.btn {
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--clr-bg);
+    background-color: var(--clr-primary);
+    cursor: pointer;
+}
+.recievepayments {
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    display: flex;
+    gap: 5rem;
+}
+.h3 {
+    font-size: 2rem;
+}
+.containericons {
+    background-color: #f3f6ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.icons {
+    display: inline-block;
+    
+}
+.paraghraph {
+    display: flex;
+    color: var(--clr-gray-700);
+}
